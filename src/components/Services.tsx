@@ -4,34 +4,29 @@ const Services = () => {
   const services = [
     {
       number: "01",
-      title: "IFRS Compliant Financial Accounts",
-      description: "Assisting clients with the preparation of International Financial Reporting Standards compliant financial accounts ensuring accuracy and compliance."
+      title: "Management Consulting",
+      description: "Strategic planning, operational improvement, and organizational development to help your business achieve its goals."
     },
     {
       number: "02", 
-      title: "External Audit Support",
-      description: "Engagement with clients' external auditors during audits, providing seamless coordination and comprehensive documentation."
+      title: "HR Consulting",
+      description: "Talent management, performance management, and change management to build high-performing teams and organizations."
     },
     {
       number: "03",
-      title: "Tax Advisory & Filing",
-      description: "Comprehensive tax advisory services and assistance with the filing of tax returns, ensuring compliance with Zimbabwe's tax regulations."
+      title: "Investment & Finance Consulting",
+      description: "Financial planning, investment analysis, and risk management to optimize your financial strategy and decision-making."
     },
     {
       number: "04",
-      title: "Business Plans & Proposals",
-      description: "Professional development of business plans and proposals to help your business secure funding and strategic direction."
+      title: "Research",
+      description: "Market research, feasibility studies, and data analytics to inform business decisions and identify opportunities."
     },
     {
       number: "05",
-      title: "Internal Audits",
-      description: "Thorough internal audit services to identify risks, improve controls, and enhance operational efficiency."
-    },
-    {
-  number: "06",
-  title: "Bookkeeping Services",
-  description: "Accurate and timely bookkeeping to maintain organized financial records, track transactions, and ensure compliance."
-}
+      title: "Trainings",
+      description: "Capacity-building programs for individuals and organizations, enhancing skills and knowledge in key areas."
+    }
   ];
 
   return (
@@ -43,7 +38,7 @@ const Services = () => {
               Our Services
             </h2>
             <p className="">
-              Comprehensive accounting solutions tailored to your business needs
+              Innovative business solutions across Strategy, Sustainability, and Innovation
             </p>
           </Col>
         </Row>

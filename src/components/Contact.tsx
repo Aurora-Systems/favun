@@ -11,26 +11,26 @@ const Contact = () => {
     const send_application = (e: FormEvent) => {
         e.preventDefault()
         set_loading(true)
-        emailjs.sendForm("service_ulefjbv", "template_we57end", form.current, {
-            publicKey: "Cgy-GBRmWQRZ6eu1z"
+        emailjs.sendForm("service_s1txjyd", "template_dpcyqem", form.current, {
+            publicKey: "zVLP-7MT3G3j-LiZr"
         }).then(() => {
             alert("✅ We received your enquiry, expect a call or an email soon!")
             form.current.reset()
         }).catch(() => {
-            alert("⚠️ Message not sent, please try again or send us a message on our email support@aurorasystems.co.zw!")
+            alert("⚠️ Message not sent, please try again or send us a message on our email info@favun.co.zw!")
         }).finally(()=>{
             set_loading(false)
         })
     }
 
   return (
-    <section id="contact" className="section-padding p_bg container rounded  p-3 text-white mb-5">
+    <section id="contact" className="section-padding s_bg container rounded  p-3 text-white mb-5">
       <Container>
         <Row className="mb-5">
           <Col lg={8} className="mx-auto text-center">
             <h2 className="display-3 fw-bold">Let's Get In Touch</h2>
             <p>
-              Ready to streamline your accounting? Contact us today
+              Ready to unlock your business potential? Contact us today
             </p>
           </Col>
         </Row>
@@ -38,22 +38,22 @@ const Contact = () => {
         <Row className="g-5">
           <Col lg={6}>
             <div className="pe-lg-4">
-              <h3 className="h2 text-secondary-custom mb-4">Get Started Today</h3>
+              <h3 className="h2 text-white mb-4">Get Started Today</h3>
               <p className="mb-5 opacity-90" style={{lineHeight: '1.8', fontSize: '1.1rem'}}>
-                Contact Champions Accounting Services to discuss how we can help your business 
-                grow with professional accounting solutions.
+                Contact Favun Advisory to discuss how we can help your business 
+                thrive through innovative strategy, sustainable growth, and technological innovation.
               </p>
               
               <div className="mb-4">
                 <div className="d-flex align-items-center mb-3">
                  
                   <div>
-                    <h6 className="mb-1 text-secondary-custom">Email</h6>
+                    <h6 className="mb-1 text-white">Email</h6>
                     <a 
-                      href="mailto:info@championsaccounting.co.zw" 
+                      href="mailto:info@favun.co.zw" 
                       className="text-white text-decoration-none fs-5"
                     >
-                      info@championsaccounting.co.zw
+                      info@favun.co.zw
                     </a>
                   </div>
                 </div>
@@ -63,12 +63,12 @@ const Contact = () => {
                 <div className="d-flex align-items-center">
                   
                   <div>
-                    <h6 className="mb-1 text-secondary-custom">Phone & WhatsApp</h6>
+                    <h6 className="mb-1 text-white">Phone & WhatsApp</h6>
                     <a 
-                      href="tel:+263772414606" 
+                      href="tel:+263782065654" 
                       className="text-white text-decoration-none fs-5"
                     >
-                      +263 77 241 4606
+                      +263 78 206 5654
                     </a>
                   </div>
                 </div>
@@ -79,7 +79,7 @@ const Contact = () => {
           <Col lg={6}>
             <Card className="border-0 shadow-lg">
               <Card.Body className="p-5">
-                <h4 className="text-primary-custom mb-4">Send Us a Message</h4>
+                <h4 className="text-white mb-4">Send Us a Message</h4>
                 
                 {showAlert && (
                   <Alert variant="success" dismissible onClose={() => setShowAlert(false)}>
@@ -147,7 +147,7 @@ const Contact = () => {
                       rows={5}
                       name="message"
                     
-                      placeholder="Tell us about your accounting needs..."
+                      placeholder="Tell us about your business needs..."
                       required
                       className="rounded-custom"
                     />

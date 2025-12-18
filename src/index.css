@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
 
 :root{
-  --bg-gradient: linear-gradient( #5c585c, #81a6c2);
-  --light-primary: #81a6c2;
-  --dark-primary: #5c585c; 
+  --bg-gradient: linear-gradient( #373623, #004aad);
+  --light-primary: #004aad;
+  --dark-primary: #373623; 
+  --primary-color: #373623;
+  --secondary-color: #004aad;
+  --third-color: #ffffff;
 }
 
 .p_bg{
@@ -32,6 +35,13 @@ h1,h2,h3,h4,h5,h6{
 .p-btn{
   background-color: var(--light-primary) !important;
   color:white !important;
+  border:none !important;
+  min-width: 150px;
+}
+
+.s-btn{
+  background-color: white !important;
+  color: var(--light-primary) !important;
   border:none !important;
   min-width: 150px;
 }
@@ -149,11 +159,11 @@ a{
 }
 
 .nav-design{
-  background-color: var(--dark-primary);
+  background-color: var(--light-primary);
 }
 
 .opacity-bg{
-  background-color: #5c585c8e;
+  background-color: rgba(55, 54, 35, 0.56);
 }
 
 a{
@@ -162,4 +172,19 @@ a{
 
 .p-txt{
   color: var(--dark-primary);
+}
+
+.text-primary-custom{
+  color: var(--primary-color) !important;
+}
+
+.text-secondary-custom{
+  color: var(--secondary-color) !important;
+}
+
+/* Logo with white background */
+.navbar img {
+  background-color: #ffffff;
+  padding: 5px;
+  border-radius: 5px;
 }

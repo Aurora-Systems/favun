@@ -3,29 +3,24 @@ import { Container, Row, Col, Card } from 'react-bootstrap';
 const Values = () => {
   const values = [
     {
-      icon: "🔥",
-      title: "Passion", 
-      description: "We bring enthusiasm and dedication to every client relationship and project we undertake."
+      icon: "🎯",
+      title: "Expertise", 
+      description: "Our team brings deep knowledge and specialized skills to deliver exceptional results for our clients."
     },
     {
       icon: "🤝",
-      title: "Honesty and Integrity",
+      title: "Integrity",
       description: "We maintain the highest ethical standards and transparent communication in all our dealings."
     },
     {
-      icon: "💙",
-      title: "Empathy",
-      description: "We understand our clients' challenges and work with compassion to provide meaningful solutions."
+      icon: "💡",
+      title: "Innovation",
+      description: "We leverage cutting-edge technology and creative solutions to drive growth and transformation."
     },
     {
-      icon: "👔", 
-      title: "Professionalism",
-      description: "We deliver expert services with the utmost professionalism and attention to detail."
-    },
-    {
-      icon: "⭐",
-      title: "Quality Service",
-      description: "We are committed to excellence in every aspect of our service delivery and client experience."
+      icon: "👥", 
+      title: "Client-centricity",
+      description: "Your success is our priority. We focus on understanding your needs and delivering tailored solutions."
     }
   ];
 

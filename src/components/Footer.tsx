@@ -2,21 +2,21 @@ import { Row, Col } from 'react-bootstrap';
 
 const Footer = () => {
   return (
-    <footer className=" p_bg  container  rounded  text-white ">
-      <div className='p_bg  rounded p-5'>
+    <footer className=" s_bg  container  rounded  text-white ">
+      <div className='s_bg  rounded p-5'>
 
         <Row className="g-4">
           <Col lg={4} md={6}>
-            <h5 className="text-secondary-custom mb-4">Champions Accounting Services</h5>
+            <h5 className="text-white mb-4">Favun Advisory</h5>
             <p className="text-light opacity-75 mb-4">
-              Professional accounting solutions for Zimbabwe's growing businesses. 
-              Your trusted partner in financial success.
+              Management consulting firm offering innovative solutions in Strategy, Sustainability, and Innovation. 
+              Empowering businesses in Zimbabwe and the region to thrive.
             </p>
            
           </Col>
           
           <Col lg={2} md={6}>
-            <h6 className="text-secondary-custom mb-4">Quick Links</h6>
+            <h6 className="text-white mb-4">Quick Links</h6>
             <ul className="list-unstyled">
               <li className="mb-2">
                 <a href="#about" className="text-light opacity-75 text-decoration-none">About Us</a>
@@ -34,21 +34,21 @@ const Footer = () => {
           </Col>
           
           <Col lg={3} md={6}>
-            <h6 className="text-secondary-custom mb-4">Services</h6>
+            <h6 className="text-white mb-4">Services</h6>
             <ul className="list-unstyled">
-              <a href="https://wa.me/263772414606?text=IFRS Financial Accounts" target="_blank"><li className="mb-2 text-light opacity-75">IFRS Financial Accounts</li></a>
-               <a href="https://wa.me/263772414606?text=Audit Support" target="_blank"><li className="mb-2 text-light opacity-75">Audit Support</li></a>
-               <a href="https://wa.me/263772414606?text=Tax Advisory" target="_blank"><li className="mb-2 text-light opacity-75">Tax Advisory</li></a>
-               <a href="https://wa.me/263772414606?text=Business Plans" target="_blank"><li className="mb-2 text-light opacity-75">Business Plans</li></a>
-               <a href="https://wa.me/263772414606?text=Internal Audits" target="_blank"><li className="mb-2 text-light opacity-75">Internal Audits</li></a>
+              <a href="https://wa.me/263782065654?text=Management Consulting" target="_blank"><li className="mb-2 text-light opacity-75">Management Consulting</li></a>
+               <a href="https://wa.me/263782065654?text=HR Consulting" target="_blank"><li className="mb-2 text-light opacity-75">HR Consulting</li></a>
+               <a href="https://wa.me/263782065654?text=Investment & Finance Consulting" target="_blank"><li className="mb-2 text-light opacity-75">Investment & Finance Consulting</li></a>
+               <a href="https://wa.me/263782065654?text=Research" target="_blank"><li className="mb-2 text-light opacity-75">Research</li></a>
+               <a href="https://wa.me/263782065654?text=Trainings" target="_blank"><li className="mb-2 text-light opacity-75">Trainings</li></a>
             </ul>
           </Col>
           
           <Col lg={3} md={6}>
-            <h6 className="text-secondary-custom mb-4">Contact Info</h6>
+            <h6 className="text-white mb-4">Contact Info</h6>
             <div className="text-light opacity-75">
-              <p className="mb-2">info@championsaccounting.co.zw</p>
-              <p className="mb-2">+263 77 241 4606</p>
+              <p className="mb-2">info@favun.co.zw</p>
+              <p className="mb-2">+263 78 206 5654</p>
               <p className="mb-2">Zimbabwe</p>
               <p className="mb-0">Mon - Fri: 8:00 AM - 5:00 PM</p>
             </div>
@@ -60,12 +60,12 @@ const Footer = () => {
         <Row>
           <Col md={6}>
             <p className="text-light opacity-75 mb-0">
-              © 2024 Champions Accounting Services. All rights reserved.
+              © 2024 Favun Advisory. All rights reserved.
             </p>
           </Col>
           <Col md={6} className="text-md-end">
             <p className="text-light opacity-75 mb-0">
-              ICAZ Certified | Professional Accounting Services
+              Management Consulting | Strategy & Innovation
             </p>
           </Col>
         </Row>

@@ -23,9 +23,9 @@ function App() {
       <Contact />
       <Footer />
       <FloatingWhatsApp
-        phoneNumber='+263772414606'
-        avatar='https://aurorasystems.sirv.com/champions_logo.png'
-        accountName='Champions Accounting Services'
+        phoneNumber='+263782065654'
+        avatar='https://cdn.clipond.com/Favun/logo.png'
+        accountName='Favun Advisory'
       />
     </div>
   );
