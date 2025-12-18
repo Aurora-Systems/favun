@@ -79,7 +79,7 @@ const Contact = () => {
           <Col lg={6}>
             <Card className="border-0 shadow-lg">
               <Card.Body className="p-5">
-                <h4 className="text-white mb-4">Send Us a Message</h4>
+                <h4 className="text-primary-custom mb-4">Send Us a Message</h4>
                 
                 {showAlert && (
                   <Alert variant="success" dismissible onClose={() => setShowAlert(false)}>
