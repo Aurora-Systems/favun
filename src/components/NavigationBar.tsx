@@ -22,7 +22,7 @@ export const Navbar = () => {
         <nav className="rounded mt-3 z-1  navbar navbar-expand-lg  position-sticky top-0 pt-3 w-100 ">
             <div className="container nav-design p-3 rounded">
                 <a href="/" onClick={closeNavbar}>
-                <img  src="https://cdn.clipond.com/Favun/logo.jpg" className="mt-1 me-3 rounded  img-fluid" width="100"/>
+                <img  src="https://cdn.clipond.com/Favun/logos.png" className="mt-1 me-3 rounded  img-fluid" width="100"/>
                 </a>
                 <button className="navbar-toggler bg-white border-0" type="button" onClick={toggleNavbar}>
                     <i className="bi bi-list p-txt"></i>
