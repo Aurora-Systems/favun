@@ -5,11 +5,8 @@ const Hero = () => (
     <div className="opacity-bg h-100  d-flex justify-content-center align-items-center p-0 m-0  rounded">
         <div className=" p-4">
 
-        <h1 className="display-1 fw-bold">Favun Advisory</h1>
-        <h3>Empowering businesses in Zimbabwe
- and the region to thrive through
- innovative strategy, sustainable growth,
- and technological innovation</h3>
+        <h1 className="display-1 fw-bold">Favun Advisory Services</h1>
+        <h3>Empowering businesses in Zimbabwe and the surrounding region and beyond to thrive through innovative strategy, sustainable growth, and technological innovation</h3>
  <p>We deliver tailored solutions, leveraging local insights and global best practices, to drive growth acceleration and unlock your full potential.</p>
  <a href="#contact"><button className="rounded p-btn btn ">Get Started</button></a>
          </div>

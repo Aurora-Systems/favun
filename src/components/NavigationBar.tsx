@@ -43,9 +43,6 @@ export const Navbar = () => {
                         <li className="nav-item">
                             <a className="nav-link" href={"#values"} onClick={closeNavbar}>Values</a>
                         </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href={"#team"} onClick={closeNavbar}>Team</a>
-                        </li>
                        
                     </ul>
                     <a href={"#contact"} onClick={closeNavbar}><button className="btn s-btn rounded w-sm-100">Contact Us</button></a>

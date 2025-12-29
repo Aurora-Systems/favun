@@ -19,11 +19,31 @@ const Services = () => {
     },
     {
       number: "04",
+      title: "Project Management",
+      description: "End-to-end project planning, execution, and delivery to ensure successful outcomes and timely completion of initiatives."
+    },
+    {
+      number: "05",
+      title: "Sustainability Management",
+      description: "Sustainable business practices, environmental management, and corporate social responsibility strategies for long-term success."
+    },
+    {
+      number: "06",
+      title: "Tourism Development Planning",
+      description: "Strategic tourism planning, destination development, and sustainable tourism initiatives to boost regional tourism growth."
+    },
+    {
+      number: "07",
+      title: "Urban and Rural Development Planning",
+      description: "Comprehensive planning solutions for urban and rural development, infrastructure planning, and community development strategies."
+    },
+    {
+      number: "08",
       title: "Research",
       description: "Market research, feasibility studies, and data analytics to inform business decisions and identify opportunities."
     },
     {
-      number: "05",
+      number: "09",
       title: "Trainings",
       description: "Capacity-building programs for individuals and organizations, enhancing skills and knowledge in key areas."
     }

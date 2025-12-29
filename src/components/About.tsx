@@ -32,8 +32,7 @@ const About = () => {
                         <h3>Our Vision & Mission</h3>
                         <div className="mb-3">
                             <h5>Vision</h5>
-                            <p>To become a leading and respected conglomerate in Zimbabwe and the
-                                surrounding region, known for innovation, excellence, and customer satisfaction.</p>
+                            <p>To become a leading and respected consulting firm in Zimbabwe and the surrounding region, known for innovation, excellence, and customer satisfaction.</p>
                         </div>
                         <div>
                             <h5>Mission</h5>

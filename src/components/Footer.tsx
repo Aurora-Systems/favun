@@ -9,8 +9,7 @@ const Footer = () => {
           <Col lg={4} md={6}>
             <h5 className="text-white mb-4">Favun Advisory</h5>
             <p className="text-light opacity-75 mb-4">
-              Management consulting firm offering innovative solutions in Strategy, Sustainability, and Innovation. 
-              Empowering businesses in Zimbabwe and the region to thrive.
+              Empowering businesses in Zimbabwe and the surrounding region and beyond to thrive through innovative strategy, sustainable growth, and technological innovation.
             </p>
            
           </Col>
@@ -25,9 +24,6 @@ const Footer = () => {
                 <a href="#services" className="text-light opacity-75 text-decoration-none">Services</a>
               </li>
               <li className="mb-2">
-                <a href="#team" className="text-light opacity-75 text-decoration-none">Our Team</a>
-              </li>
-              <li className="mb-2">
                 <a href="#contact" className="text-light opacity-75 text-decoration-none">Contact</a>
               </li>
             </ul>
@@ -39,8 +35,10 @@ const Footer = () => {
               <a href="https://wa.me/263782065654?text=Management Consulting" target="_blank"><li className="mb-2 text-light opacity-75">Management Consulting</li></a>
                <a href="https://wa.me/263782065654?text=HR Consulting" target="_blank"><li className="mb-2 text-light opacity-75">HR Consulting</li></a>
                <a href="https://wa.me/263782065654?text=Investment & Finance Consulting" target="_blank"><li className="mb-2 text-light opacity-75">Investment & Finance Consulting</li></a>
-               <a href="https://wa.me/263782065654?text=Research" target="_blank"><li className="mb-2 text-light opacity-75">Research</li></a>
-               <a href="https://wa.me/263782065654?text=Trainings" target="_blank"><li className="mb-2 text-light opacity-75">Trainings</li></a>
+               <a href="https://wa.me/263782065654?text=Project Management" target="_blank"><li className="mb-2 text-light opacity-75">Project Management</li></a>
+               <a href="https://wa.me/263782065654?text=Sustainability Management" target="_blank"><li className="mb-2 text-light opacity-75">Sustainability Management</li></a>
+               <a href="https://wa.me/263782065654?text=Tourism Development Planning" target="_blank"><li className="mb-2 text-light opacity-75">Tourism Development Planning</li></a>
+               <a href="https://wa.me/263782065654?text=Urban and Rural Development Planning" target="_blank"><li className="mb-2 text-light opacity-75">Urban and Rural Development Planning</li></a>
             </ul>
           </Col>
           
@@ -60,12 +58,12 @@ const Footer = () => {
         <Row>
           <Col md={6}>
             <p className="text-light opacity-75 mb-0">
-              © 2024 Favun Advisory. All rights reserved.
+              © 2026 Favun Advisory. All rights reserved.
             </p>
           </Col>
           <Col md={6} className="text-md-end">
             <p className="text-light opacity-75 mb-0">
-              Management Consulting | Strategy & Innovation
+              {/* Management Consulting | HR Consulting | Investment and Finance Consulting */}
             </p>
           </Col>
         </Row>
