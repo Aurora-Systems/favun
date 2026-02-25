@@ -21,7 +21,7 @@ function App() {
       <Contact />
       <Footer />
       <FloatingWhatsApp
-        phoneNumber='+263782065654'
+        phoneNumber='+263716469228'
         avatar='https://cdn.clipond.com/Favun/logo.png'
         accountName='Favun Advisory'
       />
